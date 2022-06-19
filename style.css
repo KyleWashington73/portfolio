@@ -619,11 +619,25 @@ textarea {
 --------------------------------------------------------------*/
 /* Navigation
 --------------------------------------------- */
+.site-header > .site-branding {
+  height: 60px;
+  width: 100%;
+  background-color: #eedbff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  float: left;
+  margin: 5px 15px;
+  height: 50px;
+  width: 50px;
+}
+
 .main-navigation {
   display: block;
   width: 100%;
 }
 .main-navigation ul {
+  float: right;
   display: none;
   list-style: none;
   margin: 0;
@@ -656,9 +670,21 @@ textarea {
   position: relative;
 }
 .main-navigation a {
+  display: inline-block;
+  color: #000;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 20px 20px;
   display: block;
   text-decoration: none;
 }
+.main-navigation a:hover {
+  color: darkmagenta;
+}
+.main-navigation a:active {
+  color: cornflowerblue;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -722,6 +748,27 @@ textarea {
   margin: 0 0 1.5em;
 }
 
+/* This is the start of hero section  */
+main {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/heroimg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* This is the end of hero section  */
 /* Comments
 --------------------------------------------- */
 .comment-content a {
