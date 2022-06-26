@@ -1,14 +1,17 @@
-.site-header > .site-branding {
+.site-header  {
 	height: 60px;
     width: 100%;
-    background-color: #eedbff;
+    background-color: white;
     position: sticky;
     top: 0;
     z-index: 1;
+	// logo 
+	.site-branding {
 	float: left;
     margin: 5px 15px;
     height:50px;
     width:50px;
+	}
 }
 .main-navigation {
 	display: block;
@@ -80,7 +83,7 @@
 		text-decoration: none;
 
 	    &:hover	{
-			color: darkmagenta;
+			color: rgb(141, 126, 126);
 	    }
 	    &:active{
 			color:cornflowerblue;
@@ -136,3 +139,6 @@
 		flex: 1 0 50%;
 	}
 }
+
+
+
