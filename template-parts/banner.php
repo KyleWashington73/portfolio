@@ -7,6 +7,12 @@
  */ 
 ?> 
 <?php get_magic_quotes_runtime(); ?>
+
+<!-- This is the "smartslider" section -->
+<?php
+echo do_shortcode('[smartslider3 slider="2"]');
+?>
+
 <!-- This is the start of banner section -->
 
         <div class="bannerImg"><section class="bannerSection" >
