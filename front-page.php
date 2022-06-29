@@ -1,4 +1,15 @@
 <?php 
+
+function callback(){
+  
+  echo "<h1>This Worked!</h1>";
+}
+
+add_action( "my_fancy_action", function(){?> <h1>This Worked Again!</h1><?php } );
+
+
+
+
 /** 
  * Template Name: Home 
  * 
@@ -6,13 +17,15 @@
  * 
  */ 
 ?> 
-<?php get_header(); ?>
+ <?php get_header(); ?> 
+
+<?php  do_action("my_fancy_action")?>
 
 <!-- This is the start of hero section -->
 <main id="topBtn">
         <div class="hero-text">
-            <!--<h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+            <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             
         </div>
 

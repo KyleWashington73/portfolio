@@ -20,7 +20,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
               <!--  <h3>Book Today, Travel Tomorrow</h3> -->
               <!--  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sit voluptate beatae quisquam placeat aliquid non suscipit quibusdam!</p> -->
            <div class="bannerBtn">
-            <a href="#">BOOK</a> 
+            <a href="#">BOOK</a> <!-- Please Change This Ugly Button Kyle !!! -->
            </div>
           </div>
         </div>
