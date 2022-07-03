@@ -24,7 +24,7 @@ add_action( "my_fancy_action", function(){?> <h1>This Worked Again!</h1><?php } 
 <!-- This is the start of hero section -->
 <main id="topBtn">
         <div class="hero-text">
-            <h1>Hello World</h1>
+            <h1>Hello World!</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             
         </div>
