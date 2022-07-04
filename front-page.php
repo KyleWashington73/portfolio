@@ -1,3 +1,14 @@
+<?php
+/**
+* Template Name: Homepage
+*
+* @package TravelSite
+*
+*/
+?>
+<?php get_header(); ?>
+
+
 <?php 
 
 function callback(){
@@ -9,23 +20,13 @@ add_action( "my_fancy_action", function(){?> <h1>This Worked Again!</h1><?php } 
 
 
 
-
-/** 
- * Template Name: Home 
- * 
- * @package Portfolio 
- * 
- */ 
-?> 
- <?php get_header(); ?> 
-
-<?php  do_action("my_fancy_action")?>
+ do_action("my_fancy_action") ?>
 
 <!-- This is the start of hero section -->
 <main id="topBtn">
         <div class="hero-text">
-            <h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <!-- <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
             
         </div>
 
