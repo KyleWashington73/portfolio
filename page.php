@@ -14,7 +14,12 @@
 
 get_header();
 ?>
-<h1>Hello</h1>
+<h1>this is on page.php</h1>
+<p>Which is run on a while loop</p>
+<p>So figure it out</p>
+<p>In fact, I think I can just run everything in here?</p>
+<p>No, cause this is the header. ?</p>
+<p>What about my css?</p>
 	<main id="primary" class="site-main">
 
 		<?php
