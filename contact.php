@@ -13,6 +13,7 @@
  */
 ?>
 <?php get_header(); ?>
+<h1>page template</h1>
 <h1 style="color: red;">Contact Me</h1>
 <p style="color: darkorange;">email:  k-dub@gmail.com</p>
 <p style="color: darkorange;" >phone:  707 444 4444</p>

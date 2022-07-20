@@ -32,32 +32,34 @@ main{
   justify-content: space-between;
 }
 .main-card .cards .card{
-  width: calc(100% / 3 - 10px);
-  background: #fff;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.4s ease;
+width: calc(100% / 3 - 10px);
+background: #fff;
+border-radius: 12px;
+padding: 30px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+transition: all 0.4s ease;
 }
 .main-card .cards .card:hover{
   transform: translateY(-15px);
 }
 .cards .card .content{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0px;
+height: 100%;  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
+
 .cards .card .content .img{
   height: 160px;
   width: 130px;
   border-radius: 50%;
   padding: 3px;
-  background: silver
+  background: silver;
+  margin-bottom: 14px;
 }
+
 .card .content .img img{
   height: 200px;
   width: 100%;
@@ -65,10 +67,11 @@ main{
   border-radius: 50%;
   object-fit: cover;
 }
+
 .card .content .card-image{
   height: 178px;
-  margin: 20px;
 }
+
 .card .content a {
   text-decoration: none;
 }
@@ -77,6 +80,7 @@ main{
   font-size: 20px;
   font-weight: 500;
   color: black;
+  margin-block: 10px;
   &:hover{
     color: red;
 
@@ -86,12 +90,12 @@ main{
   }
 }
 .card .content .job{
-  font-size: 20px;
-  color: silver;
+font-size: 20px;
+color: silver;
 }
 .card .content .media-icons{
   margin-top: 10px;
-  display: flex;
+  display: none;   
 
 }
 .media-icons a{
