@@ -14,7 +14,8 @@
 		<?php
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
+			else :
+				the_title("blah-blah-blah!", "this is after");
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
@@ -23,7 +24,7 @@
 			<div class="entry-meta">
 				<?php
 				portfolio_posted_on();
-				portfolio_posted_by();
+				//  portfolio_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>

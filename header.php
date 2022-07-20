@@ -13,10 +13,14 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
+    <script src="https://kit.fontawesome.com/6b35074062.js" crossorigin="anonymous"></script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">
+</script>
 	<?php wp_head(); ?>
 </head>
 

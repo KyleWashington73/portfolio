@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The template for displaying comments
  *
@@ -69,7 +69,7 @@ if ( post_password_required() ) {
 			<?php
 		endif;
 
-	endif; // Check for have_comments().
+	endif; // Check for have_comments(). 
 
 	comment_form();
 	?>
