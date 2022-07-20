@@ -19,10 +19,10 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function portfolio_setup() {
+function portfolio_setup( ) {
 	/*
 		* Make theme available for translation.
-		* Translations can be filed in the /languages/ directory.
+		*  Translations can be filed in the /languages/ directory.
 		* If you're building a theme based on Portfolio, use a find and replace
 		* to change 'portfolio' to the name of your theme in all the template files.
 		*/
